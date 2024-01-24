@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Visualization</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <style>
+        #map { height: 80vh; }
+        .control-panel {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="control-panel">
+        <button id="a_star_plus">A* Plus Search</button>
+        <button id="ucs">UCS Search</button>
+        <button id="a_star_memory">A* Memory Search</button>
+        <button id="a_star">A* Search</button>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="visualization_script.js"></script>
+</body>
+</html>
